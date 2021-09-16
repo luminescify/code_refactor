@@ -69,14 +69,13 @@ figure {
     margin-left: 25px;
 }
 
-
-.services {
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.service {
+section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -85,17 +84,17 @@ figure {
     color: #ffffff;
 }
 
-.service img {
+section img {
     max-height: 200px;
 }
 
-.service h2 {
+section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
 
-.benefits {
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -106,17 +105,17 @@ figure {
     background-color: #2589bd;
 }
 
-.benefit {
+article {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit h3 {
+article h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit img {
+article img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
