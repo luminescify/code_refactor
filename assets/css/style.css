@@ -1,13 +1,19 @@
+/* Style applies to entire page */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+
+/* Style applies to the body */
+
 body {
     background-color: #d9dcd6;
 }
 
+
+/* Style applies to the header */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,6 +30,8 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
+
+/* Style applies to the navigation */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -46,10 +54,14 @@ a {
     text-decoration: none;
 }
 
+
+/* Style applies to all paragraphs */
 p {
     font-size: 16px;
 }
 
+
+/* Style applies to the hero image */
 figure {
     height: 800px;
     width: 100%;
@@ -59,16 +71,8 @@ figure {
     background-position: center;
 }
 
- .float-left {
-    float: left;
-    margin-right: 25px;
-}
 
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/* Style applies to main content services section */
 main {
     width: 75%;
     display: inline-block;
@@ -93,7 +97,18 @@ section h2 {
     font-size: 36px;
 }
 
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
 
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+
+/* Style applies to sidebar */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -121,6 +136,8 @@ article img {
     max-width: 150px;
 }
 
+
+/* Style applies to footer */
 footer {
     padding: 30px;
     clear: both;
